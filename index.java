@@ -3,7 +3,7 @@ import java.awt.*;  // Import AWT components for layout, grid layout and graphic
 import java.awt.event.*;  // for event handling
 import javax.swing.text.*;  // Import Swing text classes for text formatting for eg. mobile no.
 
-public class PizzaBillGeneratorGUI extends JFrame {  // Define the class for the Pizza Bill Generator GUI that extends JFrame (generate window)
+public class index extends JFrame {  // Define the class for the Pizza Bill Generator GUI that extends JFrame (generate window)
 
     // set Prices for different pizza types
     static final double ROMAN_PIZZA_PRICE = 100.0;
@@ -22,7 +22,7 @@ public class PizzaBillGeneratorGUI extends JFrame {  // Define the class for the
     private JButton calculateButton;
     private JTextArea billArea;
 
-    public PizzaBillGeneratorGUI() {  // Constructor to set up the GUI
+    public index() {  // Constructor to set up the GUI
         setTitle("Pizza Bill Generator");  // Set the title of the window
         setSize(500, 600);  // Set the window size (500px width and 600px height)
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);  // Close the application when the window is closed
@@ -235,3 +235,4 @@ public class PizzaBillGeneratorGUI extends JFrame {  // Define the class for the
         app.setVisible(true);  // Make the window visible
     }
 }
+
